@@ -1,0 +1,33 @@
+body{
+  background: rgb(233, 224, 221);
+  font-family: 'Montserrat', sans-serif;
+}
+.table-cars{
+  background: rgb(233, 224, 221);
+  width: 100%;
+
+}
+th{
+
+  background: black;
+  color: white;
+  padding: 10px;
+}
+td{
+  padding: 5px;
+  /* border-bottom: 1px solid rgb(9, 39, 63); */
+  padding-left: 10px;
+  background: rgba(0, 183, 255, 0.445);
+}
+.container-search {
+  float: right;
+  padding: 10px;
+
+}
+#search{
+  border: 0;
+  padding: 10px;
+}
+.formulario{
+  text-decoration: none;
+}

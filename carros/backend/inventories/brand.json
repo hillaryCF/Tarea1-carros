@@ -1,0 +1,31 @@
+{
+  "counter":11,
+  "data":
+  [
+    {
+      "id":1,
+      "brand":"Lamborghini",
+      "description":"Automobili Lamborghini Holding S.p.A., comúnmente conocido como Lamborghini, es un fabricante italiano de automóviles deportivos fundado en 1963 por el fabricante de tractores Ferruccio Lamborghini y que actualmente pertenece a la filial de Volkswagen."
+    },
+    {
+      "id":2,
+      "brand":"BMW",
+      "description":"BMW es un fabricante alemán de automóviles de gama alta y motocicletas, cuya sede se encuentra en Múnich. Sus subsidiarias son Mini, Rolls-Royce, y BMW Bank."
+    },
+    {
+      "id":3,
+      "brand":"Porsche",
+      "description":"Dr. Ing. h.c. F. Porsche AG, normalmente abreviado como Porsche AG, es un fabricante de automóviles alemán especializado en automóviles deportivos lujosos, de alta gama, SUV y sedanes. Porsche AG es propiedad del Grupo Volkswagen, ​ que a su vez es propiedad mayoritaria de Porsche Automovil Holding SE."
+    },
+    {
+      "id":4,
+      "brand":"Jeep",
+      "description":"Jeep es una marca estadounidense de automóviles todoterreno creada por  Willys-Overland en 1941, y que hoy día es una división de FCA US LLC, una subsidiaria del grupo automovilístico Fiat Chrysler Automobiles. "
+    },
+    {
+      "id":5,
+      "brand":"Ford",
+      "description":"La Ford Motor Company, mas conocida como Ford, es una empresa multinacional estadounidense"
+    }
+  ]
+}

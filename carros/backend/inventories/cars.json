@@ -1,0 +1,47 @@
+[
+  {
+    "id":1,
+    "name":"Aventador S",
+    "brandId":1,
+    "year":2011,
+    "color":"Orange",
+    "description":"Además de un corazón palpitante, el Aventador S está equipado con un cerebro altamente sofisticado: la innovadora unidad de control Lamborghini Dinamica Veicolo Attiva (LDVA), un sistema de tecnologías activas capaces de gestionar cada uno de los ejes dinámicos del automóvil. La dinámica del vehículo lateral es controlada por un sistema de dirección que implica a las cuatro ruedas, por medio del Lamborghini Dynamic Steering (LDS) y Lamborghini Rear-Wheel Steering (LRS).",
+    "creacionDate":"22/06/2019"
+  },
+  {
+    "id":2,
+    "name":"Serie 1",
+    "brandId":2,
+    "year":2004,
+    "color":"Blue",
+    "description":"Impresiona, es divertido y nunca pasa desapercibido. Con su diseño deportivo, su carácter dinámico y su perfecta conectividad, el nuevo héroe urbano arrasa corazones. A fin de cuentas, no solo destaca por su rápida velocidad en las carreteras sino también en la web, pudiendo así enfrentar cualquier desafío. Una pequeña diferencia de gran importancia.",
+    "creacionDate":"22/06/2019"
+  },
+  {
+    "id":3,
+    "name":"Cayenne",
+    "brandId":3,
+    "year":2006,
+    "color":"Black",
+    "description":"Cinco puertas, que se abren a cualquier aventura imaginable. Mediante un diseño dinámico y eficientes motores turbo. Mediante una conexión digital extraordinaria que lleva todo el mundo hasta el puesto de conducción. Mediante su versatilidad, calidad e innovadores sistemas de asistencia que ofrecen un extraordinario confort a conductor y pasajeros.",
+    "creacionDate":"22/06/2019"
+  },
+  {
+    "id":4,
+    "name":"WRANGLER UNLIMITED",
+    "brandId":4,
+    "year":2017,
+    "color":"Grey",
+    "description":"Con el Wrangler Unlimited 2017, podrás disfrutar de un amplio espacio de almacenamiento, reducción de ruido, vibración y estridencia (NVH). También obtendrás detalles como portavasos iluminados, iluminación en los espacios para pies y espejo retrovisor con atenuación automática.",
+    "creacionDate":"22/06/2019"
+  },
+  {
+    "id":5,
+    "name":"SE Sedan",
+    "brandId":5,
+    "year":2019,
+    "color":"Green",
+    "description":"Además de un corazón palpitante, el Aventador S está equipado con un cerebro altamente sofisticado: la innovadora unidad de control Lamborghini Dinamica Veicolo Attiva (LDVA), un sistema de tecnologías activas capaces de gestionar cada uno de los ejes dinámicos del automóvil. La dinámica del vehículo lateral es controlada por un sistema de dirección que implica a las cuatro ruedas, por medio del Lamborghini Dynamic Steering (LDS) y Lamborghini Rear-Wheel Steering (LRS).",
+    "creacionDate":"22/06/2019"
+  }
+]

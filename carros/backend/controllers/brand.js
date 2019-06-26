@@ -2,11 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const brands = require('../inventories/brand.json');
 const {
-  end
-} = require('../funcion.js');
+  end,
+  getData,
+  throwErr
+} = require('../controllers/funcion.js');
 
 function GET(req, res) {
-  end(res, brand);
+  end(res, {data: brands});
 }
 
 function POST(req, res) {
@@ -21,14 +23,14 @@ function POST(req, res) {
       description: parsed.description ? parsed.description : null
     }
     if (prop) {
-      if (brands.indexOf(prop) === -1) {
+      if (brands.map(o => o.brand).indexOf(prop) === -1) {
         brands.push(obj);
-        fs.writeFile(path.resolve('../inventories/brand.json'), JSON.stringify(brands), throwErr);
-        success(res, brands);
+          fs.writeFile(path.resolve('./inventories/brand.json'), JSON.stringify(brands), throwErr);
+          end(res, {data:brands});
       } else
-        error(res,{error: 'The brand already exists'});
+        end(res,{error: 'The brand already exists'});
     } else {
-      error(res, `The property <<brand>> returns ${prop} in the object ${JSON.stringify(parsed)}`);
+      end(res, {error:`The property <<brand>> returns ${prop} in the object ${JSON.stringify(parsed)}`});
     }
   });
 }

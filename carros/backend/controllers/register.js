@@ -1,12 +1,15 @@
 const {
   test,
   end,
-} = require('../funcion.js');
-
+} = require('./funcion.js');
+const brands = ('../inventories/brand.json')
 function register(routes) {
   return (req, res) => {
     res.setHeader('Access-Control-Alllow-Origin', '*');
 
+    console.log(test(req, routes.brands.path));
+    console.log( routes.brands);
+    console.log(req.url);
     if (test(req, routes.brands.path)) {
       let f = routes.brands
         .controller[req.method];

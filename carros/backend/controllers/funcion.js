@@ -1,12 +1,14 @@
+const qs = require('querystring');
 function test(req, str) {
   return new RegExp(`^(${str})`, 'gm').test(req.url);
-
 }
+
 function end(res, { data, status = 200, error = null, success = true }) {
   res.statusCode = status;
   if (typeof data === 'string') {
     return res.end(data);
   }
+
   return res.end(JSON.stringify({
     success,
     error,

@@ -26,15 +26,14 @@ function getData({
   res
 }, f, err) {
   let d = '';
-  req
-    .on('data', c => {
-      d += c
-      if (d.length > 1e6) error(res, err ? err : 'Too much data');
-    })
-    .on('end', () => {
-      const parsed = qs.parse(d);
-      f(parsed);
-    });
+  req.on('data', c => {
+    d += c
+    if (d.length > 1e6) error(res, err ? err : 'Too much data');
+  })
+  .on('end', () => {
+    const parsed = qs.parse(d);
+    f(parsed);
+  });
 }
 
 
